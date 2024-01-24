@@ -1,0 +1,25 @@
+table{
+    width: 100%;
+    font-family: cursive;
+    border-collapse: collapse;
+    background-color: beige;
+
+
+
+}
+td,th {
+    border: 2px solid purple;
+    padding: 10px;
+    color: #8c7fff;
+}
+h2{
+text-align: center;
+color: #8c7fff;
+font-family: cursive;
+font-size: large;
+}
+body {
+    background-image: url("../images/pink bouquet.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

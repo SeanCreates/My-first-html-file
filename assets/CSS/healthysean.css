@@ -1,0 +1,56 @@
+.fitness{
+    border: 2px solid rebeccapurple;
+    background-color: #8c7fff;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: Century;
+    background-image: url("../images/pilates.jpeg");
+    color: antiquewhite;
+}
+.fun{
+    border: 2px solid white;
+    background-color: chocolate;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: Century;
+    background-image: url("../images/friends.jpeg");
+    color: antiquewhite;
+}
+.mental{
+    border: 2px solid bisque;
+    background-color: purple;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: Century;
+    background-image: url("../images/journal.jpeg");
+}
+.grit{
+    border: 2px solid goldenrod;
+    background-color: aquamarine;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: Century;
+    background-image: url("../images/run.png");
+    color: black;
+}
+#computers{
+    border: 2px solid slategrey;
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: Century;
+    background-image: url("../images/asus.png");
+}
+#vlogging{
+    border: 2px solid darkslateblue;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: Century;
+    background-image: url("../images/");
+}

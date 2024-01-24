@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/CSS/myformbright.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Myform</title>
+</head>
+<body>
+<div id="form-container">
+    <div class="form-group">
+        <label for="name">Name</label><br>
+        <input type="text" name="name" id="name" required><br>
+    </div>
+    <div class="form-group">
+        <label for="email">Email Address</label><br>
+        <input type="email" name="email" id="email" required><br>
+    </div>
+    <div class="form-group">
+        <label for="pass">Passwords</label><br>
+        <input type="password" name="pass" id="pass" required><br>
+    </div>
+    <div class="form-group">
+        <label for="gender">Gender</label><br>
+        <select name="gender" id="gender">
+            <option value="Male">Male</option>
+                     <option value="Female">Female</option>
+                     <option value="Other">Other</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Interests</label><br>
+        <input type="checkbox" name="interest1" id="interest1">
+        <label for="interest1">Vlogging</label>
+         <input type="checkbox" name="interest2" id="interest2">
+        <label for="interest2">Photography</label>
+         <input type="checkbox" name="interest3" id="interest3">
+        <label for="interest1">Cinematography</label>
+    </div>
+    <div class="form-group">
+        <label>My favourite programming language</label><br>
+        <input type="radio" name="lang1" id="lang1" value="Java">
+        <label for="lang1">Java</label>
+        <input type="radio" name="lang2" id="lang2" value="Python">
+        <label for="lang2">Python</label>
+        <input type="radio" name="lang3" id="lang3" value="Kotlin">
+        <label for="lang3">Kotlin</label>
+        <input type="radio" name="lang4" id="lang4" value="Java Script">
+        <label for="lang4">Java Script</label>
+    </div>
+    <div class="form-group">
+        <label>Message</label><br>
+        <textarea> name="message" id="message"></textarea><br>
+    </div>
+    <div class="form-group">
+        <button>Submit</button>
+
+    </div>
+</div>
+
+</body>
+</html>

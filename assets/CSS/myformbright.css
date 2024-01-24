@@ -1,0 +1,47 @@
+body {
+    font-family: "Berlin Sans FB";
+    background-color: purple;
+    margin: 20px;
+    padding: 20PX;
+    display: flex;
+    align-items: center;
+    height: 170vh;
+    justify-content: center;
+}
+#form-container {
+    background-color: #8c7fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+.form-group{
+    margin-bottom: 1px;
+}
+label{
+    display: block;
+    margin: 8px;
+    font-weight: bold;
+}
+input[ type="name"],
+input[ type="email"],
+input[ type="password"],
+input[ type="text"],
+
+textarea,select{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+textarea{
+    height: 10px;
+}
+input[ type="radio"],input[ type="checkbox"] {
+    margin: 5px;
+}
+button{
+    padding: 5px;
+    color: aquamarine;
+    text-decoration-color: #8c7fff;
+}
